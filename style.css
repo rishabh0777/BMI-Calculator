@@ -100,11 +100,14 @@ h1::selection, h2::selection{
     body{
         height:100vh;
         width:100vw;
+        background-position:bottom;
+        align-items: flex-start;
+        padding-top:12vh;
     }
 
     #container{
-        width:60vw;
-        height:40vh;
+        width:70vw;
+        height:50vh;
     }
     input{
         width:40vw;
