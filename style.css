@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:#fff;
+    font-family: sans-serif;
+}
+
+html,body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1518812326523-58f0a18519c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container{
+    width:30vw;
+    height:60vh;
+    background-color: #ffffff3c;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:5vh;
+    filter: blur(10px #000);
+    box-shadow: 10px 10px 15px #fff;
+
+}
+h3{
+    padding-bottom: 5vh;
+}
+h3::selection{
+    background: #000;
+    color:#fff;
+}
+input{
+    height:5vh;
+    width:18vw;
+    margin-bottom:5vh;
+    color:#000;
+    padding-left:1em;
+    outline: none;
+}
+button{
+    height:5vh;
+    width:18vw;
+    color:#000;
+    margin-bottom:4vh;
+    transition: all ease 0.8s;
+}
+button:hover{
+    color:#fff;
+    background-color: #000;
+    border:0;
+    outline: none;
+}
+h1{
+    font-size: 2.8em;
+    padding-bottom: 2vh;
+    color:#141313;
+}
+h2{
+    font-size: 1em;
+    color:#141313;
+}
+h1::selection, h2::selection{
+    background-color: #000;
+    color:#fff;
+}
+
+@media (max-width: 650px) {
+    #container{
+        width:80vw;
+        height:50vh;
+    }
+    input{
+        width:60vw;
+        height:5vh;
+    }
+    button{
+        width:60vw;
+        height:5vh;
+        margin-bottom: 1.8vh;
+    }
+    h2{
+        font-size: 0.8em;
+        padding-bottom: 0.6vh;
+    }
+    h1{
+        font-size: 2.5em;
+        padding-bottom: 0.7vh;
+    }
+  }
+
+  @media (max-width: 800px) {
+    body{
+        height:100vh;
+        width:100vw;
+    }
+
+    #container{
+        width:60vw;
+        height:40vh;
+    }
+    input{
+        width:40vw;
+        height:5vh;
+    }
+    button{
+        width:40vw;
+        height:5vh;
+        margin-bottom: 1.8vh;
+    }
+    h2{
+        font-size: 0.8em;
+        padding-bottom: 0.6vh;
+    }
+    h1{
+        font-size: 2.5em;
+        padding-bottom: 0.7vh;
+    }
+  }
+  
+
